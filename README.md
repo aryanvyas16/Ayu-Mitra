@@ -1,19 +1,41 @@
 # Ayu Mitra
 
-Ayu Mitra is a health management application designed to help users manage their medical reports and prescriptions efficiently. Built with React and Tailwind CSS, this application offers a user-friendly interface with advanced features for report analysis, task management, and user profile management.
+Ayu Mitra is a health management application designed to streamline the management of medical reports, prescriptions, and related tasks. Built with modern web technologies, this application provides a comprehensive solution for analyzing reports, organizing tasks, and managing user profiles.
 
 ## Features
 
-- **Report Analysis**: Upload and analyze prescriptions, blood reports, or any other medical documents. The application provides detailed descriptions and diagnoses of the uploaded reports.
-- **Task Management**: Manage tasks related to your reports using Kanban cards. Tasks can be categorized as pending, in-progress, or completed, with drag-and-drop functionality for easy management.
-- **Dashboard**: View and manage all the reports you’ve uploaded in one place through a comprehensive dashboard.
-- **Profile Page**: A personalized profile page that is generated based on user onboarding information and stored in the database.
+- **Report Analysis**: 
+  - Upload medical documents such as prescriptions, blood reports, or other diagnostic reports.
+  - The application automatically analyzes the content of these documents, providing detailed descriptions and diagnoses based on the uploaded data.
+  - Users can view the results of the analysis directly within the application.
+
+- **Task Management**:
+  - Organize your healthcare-related tasks using an intuitive Kanban board.
+  - Tasks are categorized into "Pending," "In-Progress," and "Completed" columns.
+  - The drag-and-drop functionality allows users to easily move tasks between different stages based on their progress.
+  - Tasks can be created automatically based on the analysis of reports or manually added by the user.
+
+- **Dashboard**:
+  - A centralized dashboard provides an overview of all the reports uploaded by the user.
+  - Users can quickly access their historical data, review previous analyses, and monitor their health trends over time.
+
+- **Profile Page**:
+  - A personalized profile page is generated based on the user’s onboarding information.
+  - The profile is dynamically updated with data from the database, reflecting the user's medical history and preferences.
+  - Users can update their profile information, which is securely stored and retrieved from the database.
 
 ## Tech Stack
 
-- **Frontend**: React, Tailwind CSS
-- **Backend**: Drizzle ORM, Neon Console (Database)
-- **Authentication**: Privy
+- **Frontend**:
+  - **React**: A powerful JavaScript library used to build the user interface of Ayu Mitra. React enables a responsive and dynamic user experience, with components that update in real-time as users interact with the application.
+  - **Tailwind CSS**: A utility-first CSS framework that allows for rapid UI development. Tailwind CSS provides the styling and layout, ensuring a modern and consistent design across the application.
+
+- **Backend**:
+  - **Drizzle ORM**: A lightweight ORM (Object-Relational Mapping) used to interact with the database. Drizzle ORM simplifies database queries, making it easier to store, retrieve, and manage user data and medical reports within the application.
+  - **Neon Console**: A cloud-based database hosting solution. Neon Console is used to securely store all user data, including uploaded reports, profile information, and task lists. It ensures data is accessible and reliable.
+
+- **Authentication**:
+  - **Privy**: Privy handles user authentication and ensures secure access to the application. It provides a seamless login and signup process, protecting user data with robust security measures.
 
 ## Installation
 
@@ -60,15 +82,3 @@ Ayu Mitra is a health management application designed to help users manage their
 4. **Manage Tasks**: Use the Kanban board to track and manage tasks associated with your reports. Drag and drop tasks to update their status.
 5. **View Dashboard**: Access the dashboard to see all your uploaded reports in one place.
 6. **Update Profile**: Manage your profile information based on the onboarding data.
-
-## Contributing
-
-If you’d like to contribute to Ayu Mitra, please fork the repository and submit a pull request with your changes. Be sure to include tests for new features and bug fixes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or feedback, please reach out to [your email] or open an issue on GitHub.
