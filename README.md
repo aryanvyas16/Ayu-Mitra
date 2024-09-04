@@ -37,42 +37,10 @@ Ayu Mitra is a health management application designed to streamline the manageme
 - **Authentication**:
   - **Privy**: Privy handles user authentication and ensures secure access to the application. It provides a seamless login and signup process, protecting user data with robust security measures.
 
-## Installation
 
-1. Clone the repository:
+ 
 
-    ```bash
-    git clone https://github.com/yourusername/ayumitra.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd ayumitra
-    ```
-
-3. Install the dependencies:
-
-    ```bash
-    npm install
-    ```
-
-4. Set up environment variables:
-
-    Create a `.env` file in the root directory and add your environment variables. For example:
-
-    ```
-    REACT_APP_PRIVY_KEY=your_privy_key
-    REACT_APP_NEON_DATABASE_URL=your_neon_database_url
-    ```
-
-5. Start the development server:
-
-    ```bash
-    npm start
-    ```
-
-    The application will be available at `http://localhost:3000`.
+    
 
 ## Usage
 
