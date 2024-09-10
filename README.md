@@ -2,14 +2,6 @@
 
 Ayu Mitra is a health management application designed to streamline the management of medical reports, prescriptions, and related tasks. Built with modern web technologies, this application provides a comprehensive solution for analyzing reports, organizing tasks, and managing user profiles.
 
-
-
-https://github.com/user-attachments/assets/33438e26-c46d-4514-ae9b-f504845563bc
-
-
-
-
-
 ## Features
 
 - **Report Analysis**: 

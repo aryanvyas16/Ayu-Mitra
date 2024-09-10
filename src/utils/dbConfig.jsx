@@ -4,7 +4,7 @@ import * as schema from "./schema";
 
 
 const sql = neon(
-    "postgresql://Ayu_Mitra_owner:VvexpUZ6jG2H@ep-wild-mud-a59dac8r.us-east-2.aws.neon.tech/Ayu_Mitra?sslmode=require"
+    "postgresql://Ayu_Mitra_owner:VvexpUZ6jG2H@ep-wild-mud-a59dac8r.us-east-2.aws.neon.tech/Ayu_Mitra1?sslmode=require"
 )
 
 export const db = drizzle(sql, {schema});
