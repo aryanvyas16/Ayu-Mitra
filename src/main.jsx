@@ -5,6 +5,8 @@ import App from './App'
 import './index.css'
 import {PrivyProvider} from '@privy-io/react-auth';
 import { StateContextProvider } from './context'
+import { Buffer } from 'buffer';
+window.Buffer = Buffer;
 
 //create root element where our app will be mounted so we 
 //create a const variable name root
